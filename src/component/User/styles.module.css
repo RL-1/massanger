@@ -1,0 +1,43 @@
+.container{
+    transition: 0.2s;
+    border-radius: 8px;
+    margin:8px 0;
+    padding: 8px;
+}
+.container:hover{
+    background-color: rgb(44,44,44);
+}
+.item{
+    color:#FFFFFF;
+}
+.content {
+    padding: 8px;
+    display: flex;
+    gap:5px;
+}
+.logo{
+    background-color:orange;
+    padding:6px 20px;
+    border-radius: 60px;
+}
+.logo__name{
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 26px;
+}
+.info{
+    color:#FFFFFF;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 5px;
+}
+.name{
+    font-weight: bold;
+}
+.time{
+    color: #686c72;
+}

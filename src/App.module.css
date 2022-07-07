@@ -1,0 +1,17 @@
+.container{
+    background-image: url('./assets/image/backgroundContanct.png');
+    background-color: #0F0F0F;
+    min-height: 100vh;
+    background-position: top right;
+    background-size: 510px auto;
+    background-repeat: repeat;
+    height: 100%;
+    display: flex;
+    color:#FFFFFF;;
+}
+.contact{
+    width: 30%;
+}
+.content{
+    width: 70%;
+}
